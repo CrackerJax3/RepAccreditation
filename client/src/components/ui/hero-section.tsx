@@ -13,12 +13,11 @@ export function HeroSection() {
           <div className="flex flex-col justify-center space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60">
-                Global Excellence in Education
+                MakerSpace Exploration Accreditation
               </h1>
               <p className="text-lg text-muted-foreground">
-                Get your institution recognized globally through our comprehensive
-                accreditation process. Join a network of excellence in education
-                and innovation.
+                Setting global standards for educational institutions and makerspaces. 
+                Join our network of excellence in innovation and hands-on learning.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">

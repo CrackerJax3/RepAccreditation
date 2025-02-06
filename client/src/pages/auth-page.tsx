@@ -43,9 +43,9 @@ export default function AuthPage() {
       <div className="flex items-center justify-center p-8">
         <Card className="w-full max-w-md">
           <CardHeader>
-            <CardTitle>Welcome</CardTitle>
+            <CardTitle>Welcome to MEA</CardTitle>
             <CardDescription>
-              Access your institution's accreditation portal
+              Access your MakerSpace Exploration Accreditation portal
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -54,11 +54,11 @@ export default function AuthPage() {
                 <TabsTrigger value="login">Login</TabsTrigger>
                 <TabsTrigger value="register">Register</TabsTrigger>
               </TabsList>
-              
+
               <TabsContent value="login">
                 <LoginForm onSubmit={(data) => loginMutation.mutate(data)} />
               </TabsContent>
-              
+
               <TabsContent value="register">
                 <RegisterForm onSubmit={(data) => registerMutation.mutate(data)} />
               </TabsContent>
@@ -70,13 +70,13 @@ export default function AuthPage() {
       <div className="hidden md:block bg-gradient-to-br from-primary/10 to-primary/30 p-8">
         <div className="h-full flex flex-col justify-center max-w-xl mx-auto">
           <h1 className="text-4xl font-bold mb-6">
-            Global Institution Accreditation
+            MakerSpace Exploration Accreditation
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
             Join our network of accredited educational institutions and makerspaces.
-            Demonstrate your commitment to excellence and innovation.
+            Demonstrate your commitment to excellence and innovation in hands-on learning.
           </p>
-          
+
           <div className="grid grid-cols-2 gap-6">
             {[
               "https://images.unsplash.com/photo-1705354151834-3a99ef68b205",
