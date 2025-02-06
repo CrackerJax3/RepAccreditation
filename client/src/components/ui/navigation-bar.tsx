@@ -9,7 +9,7 @@ export function NavigationBar() {
     <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/">
-          <a className="text-lg font-bold leading-tight">
+          <a className="text-lg font-bold leading-[1.1]">
             MakerSpace<br />
             Exploration<br />
             Accreditation
