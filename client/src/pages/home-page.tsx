@@ -78,6 +78,26 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <section className="py-24 bg-primary/5">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">About MSX Boca Chica</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              MSX Boca Chica is at the forefront of innovative education and maker culture. 
+              Our accreditation program sets the standard for excellence in hands-on learning 
+              and technological education.
+            </p>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://msxbocachica.org', '_blank')}
+            >
+              Visit MSX Boca Chica
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

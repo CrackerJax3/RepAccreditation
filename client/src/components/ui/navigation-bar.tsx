@@ -17,6 +17,14 @@ export function NavigationBar() {
         </Link>
 
         <div className="flex items-center gap-4">
+          <a
+            href="https://msxbocachica.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-foreground transition-colors"
+          >
+            About Us
+          </a>
           {user ? (
             <>
               <Link href="/dashboard">
