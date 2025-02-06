@@ -7,11 +7,9 @@ export function NavigationBar() {
 
   return (
     <nav className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between gap-4">
+      <div className="container flex h-16 items-center justify-between">
         <Link href="/">
-          <a className="text-xl font-bold px-2 truncate hover:text-primary transition-colors">
-            MakerSpace Exploration Accreditation
-          </a>
+          <a className="text-lg font-bold">MakerSpace Exploration Accreditation</a>
         </Link>
 
         <div className="flex items-center gap-4">
