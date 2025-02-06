@@ -30,9 +30,6 @@ export function NavigationBar() {
           {user ? (
             <>
               <Button variant="ghost" asChild>
-                <Link href="/dashboard">Dashboard</Link>
-              </Button>
-              <Button variant="ghost" asChild>
                 <Link href="/apply">Apply</Link>
               </Button>
               <Button
